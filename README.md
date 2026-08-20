@@ -142,13 +142,23 @@ The dataset contains **3,333 customer records** with **20 features**:
 
 ```
 Customer-Churn-Executive-Dashboard-PowerBI/
-├── churn-bigml-80.csv                          # Source dataset (3,333 records)
-├── Customer-Churn-Executive-Dashboard.pbix         # Power BI dashboard file
-├── Image-of-a-output.png                       # Dashboard screenshot
-├── Video-of-an-output.mp4                      # Dashboard walkthrough video
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md                        # Bug report template
+│   │   ├── feature_request.md                   # Feature request template
+│   │   └── dashboard_improvement.md             # Dashboard improvement template
+│   └── pull_request_template.md                 # PR template
+├── churn-bigml-80.csv                           # Source dataset (3,333 records)
+├── Customer-Churn-Executive-Dashboard.pbix      # Power BI dashboard file
+├── Image-of-a-output.png                        # Dashboard screenshot
+├── Video-of-an-output.mp4                       # Dashboard walkthrough video
+├── CHANGELOG.md                                 # Project changelog
+├── CODE_OF_CONDUCT.md                           # Code of conduct
 ├── CONTRIBUTING.md                              # Contribution guidelines
 ├── LICENSE                                      # MIT License
-└── README.md                                    # Project documentation
+├── README.md                                    # Project documentation
+├── SECURITY.md                                  # Security policy
+└── SUPPORT.md                                   # Support resources
 ```
 
 ---
