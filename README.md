@@ -164,12 +164,29 @@ Customer-Churn-Executive-Dashboard-PowerBI/
 
 ---
 
-## Key Insights
+## Methodology
 
-- Higher service call frequency is strongly correlated with increased churn probability.
-- Customers with international plans show differentiated churn patterns that warrant targeted retention strategies.
-- Churn is not uniformly distributed — certain geographic regions exhibit significantly higher concentrations.
-- Monthly charges, while not the sole driver, contribute to churn trends when combined with other factors.
+1. **Data Collection** — Customer records sourced from telecom service provider dataset
+2. **Data Cleaning** — Handled missing values, standardized formats, and validated data integrity
+3. **Exploratory Analysis** — Identified patterns and correlations using statistical analysis
+4. **Dashboard Design** — Created interactive visuals following data visualization best practices
+5. **Insight Generation** — Derived actionable insights for retention strategy development
+
+---
+
+## FAQ
+
+**Q: What version of Power BI do I need?**
+A: Power BI Desktop latest version (2024 or later recommended).
+
+**Q: Can I use this dashboard with my own data?**
+A: Yes. Replace `churn-bigml-80.csv` with your dataset and update the data source in Power BI.
+
+**Q: How do I refresh the data?**
+A: Open the `.pbix` file in Power BI Desktop and click **Home** → **Refresh**.
+
+**Q: Is this dashboard mobile-friendly?**
+A: The dashboard is optimized for desktop viewing. Mobile layout can be configured in Power BI Service.
 
 ---
 
