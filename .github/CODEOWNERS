@@ -1,0 +1,14 @@
+# Code Owners for Customer Churn Dashboard
+# These owners will be automatically requested for review
+# when someone opens a pull request.
+
+# Default owner for everything
+* @methila-2056
+
+# Power BI files
+*.pbix @methila-2056
+*.pbit @methila-2056
+
+# Documentation
+*.md @methila-2056
+docs/ @methila-2056
