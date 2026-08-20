@@ -1,6 +1,7 @@
 # Power BI
 *.pbids
 *.pbit.bak
+*.pbit
 
 # Power BI temp files
 *.dbmdl
@@ -8,17 +9,29 @@
 *.publishsettings
 dotnet-tools.json
 
+# Data sources
+*.odc
+*.uditlmodel
+
 # Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+*.lnk
 
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
 
 # Editor/IDE
 .vscode/
@@ -26,3 +39,9 @@ $RECYCLE.BIN/
 *.swp
 *.swo
 *~
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
