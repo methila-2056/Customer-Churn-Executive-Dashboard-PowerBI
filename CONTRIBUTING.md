@@ -35,6 +35,24 @@ If you find a bug or have a suggestion for improvement:
 - Test interactions and filters before submitting
 - Update documentation if adding new features
 
+## Development Standards
+
+### Dashboard Design
+- Use consistent color scheme across all visuals
+- Maintain proper spacing and alignment
+- Include descriptive titles and labels
+- Add tooltips for complex visuals
+
+### Data Modeling
+- Document all DAX measures created
+- Use meaningful names for calculated columns
+- Follow naming conventions: `PascalCase` for measures
+
+### Commit Messages
+- Use present tense ("Add feature" not "Added feature")
+- Keep first line under 72 characters
+- Reference issues when applicable (`Fixes #123`)
+
 ## Questions?
 
 Feel free to open an issue for any questions about contributing.
